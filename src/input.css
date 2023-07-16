@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .nav-icon{
+  width: 60px;
+  height: 17px;
+  background-image: url(../img/icon-menu.svg);
+  transition: 1s;
+}
+.nav-icon:hover{
+  width: 30px;
+  height: 31px;
+  background-image: url(../img/icon-menu-close.svg);
+  transition: 1s;
+}
+.nav-icon:hover:has(.nav){
+  display: block;
+} */
