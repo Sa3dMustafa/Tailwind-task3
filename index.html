@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="src/input.css">
 </head>
 <body>
   <!-- main bodey -->
@@ -14,10 +15,10 @@
         <img src="img/logo.svg" alt="">
       </a>
       <!-- navebar -->
-      <div class="nav-icon group transition duration-150 ">
-        <img class="w-10 group-hover:hidden lg:hidden " src="img/icon-menu.svg" alt="">
-        <img class=" w-4 hidden mb-4 lg:hidden group-hover:block " src="img/icon-menu-close.svg" alt="">
-        <div class="nav w-1/4 lg:w-1/3  lg:h-fit  bg-white p-6 lg:p-0 hidden group-hover:block lg:gap-4 lg:flex-row lg:justify-between lg:block lg:relative absolute right-0 transition-all duration-150 ">
+      <div class="nav-icon transition duration-150 ">
+        <img class="open w-8 lg:hidden" src="img/icon-menu.svg" alt="">
+        <img class="close hidden w-6 h mb-4 lg:hidden" src="img/icon-menu-close.svg" alt="">
+        <div class="menu hidden lg:flex w-1/2 lg:w-1/3  lg:h-fit  bg-white p-6 lg:p-0 lg:gap-4 lg:flex-row lg:justify-between lg:relative absolute right-0 transition-all duration-150 ">
           <ul class="flex flex-col lg:flex-row gap-6  transition duration-150  items-center text-sm text-gray-500">
             <li class="hover:text-red-600 "><a href="#home">Home</a></li>
             <li class="hover:text-red-600 "><a href="#new">New</a></li>
@@ -93,5 +94,7 @@
       </div>
     </div>
   </div>
+
+  <script src="main.js"></script>
 </body>
 </html>
